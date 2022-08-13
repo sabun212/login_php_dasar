@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
 		$_SESSION['username'] = $row['username'];
 		header("Location: home.php");
 	} else {
-		echo "<script>alert('email atau pw salah bang!.')</script>";
+		echo "<script>alert('Akun Tidak Ditemukan!.')</script>";
 	}
 }
 
